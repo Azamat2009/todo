@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+
+form input {
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+}
+
+form button {
+    all: unset;
+    background-color: #007FFF;
+    padding: 10px 20px;
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: .5 ease;
+}
+
+form button:active {
+    scale: .9;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+hr {
+    width: 75%;
+    height: 3px;
+    background-color: gray;
+}
+
+.box-active {
+    text-decoration: line-through red 2px;
+}
+
+.box {
+    overflow: hidden;
+    float: left;
+    padding: 30px 20px;
+    width: 282px;
+    height: 90px;
+    background: #F0F0F0;
+    border: 1px solid #007FFF;
+    border-radius: 10px;
+    position: relative;
+}
+
+.span {
+    color: gray;
+}
+
+.img {
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.img:active {
+    scale: .9;
+}
